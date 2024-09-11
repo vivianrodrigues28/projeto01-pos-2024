@@ -2,7 +2,8 @@
  - Prazo de entrega: **24/09/2024**
 
 ## Instruções
-- Clone esse repositório e adicione seu colega de projeto como colaborador.
+- Crie um fork desse repositório.
+- Clone o seu fork e adicione seu colega de projeto como colaborador.
 - Desenvolvam em grupo.
 
 ### Caso já tenha um repositório:
