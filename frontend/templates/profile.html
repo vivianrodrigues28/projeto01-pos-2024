@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Perfil do Usuário</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<header>
+    <h1>Bem-vindo, {{ profile.nome_completo }}</h1>
+</header>
+<div class="container">
+    <img src="{{ profile.url_foto }}" alt="Foto do Perfil" class="profile-photo">
+    <p>CPF: {{ profile.cpf }}</p>
+    <p>Email: {{ profile.email }}</p>
+</div>
+</body>
+</html>

@@ -21,26 +21,9 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-    font-size: 2.5em;
-    color: #333;
+h1, h2 {
     text-align: center;
-}
-
-h2 {
-    font-size: 2em;
     color: #333;
-    text-align: center;
-}
-
-.profile-photo {
-    display: block;
-    margin: 20px auto;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 5px solid #ddd;
 }
 
 input {
@@ -68,18 +51,14 @@ input {
     background-color: #218838;
 }
 
-footer {
-    text-align: center;
-    margin-top: 50px;
-    font-size: 0.9em;
-}
-
-.hidden {
-    display: none;
-}
-
-#boletins-list {
-    margin-top: 20px;
+.profile-photo {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #ddd;
 }
 
 .boletim-card {
